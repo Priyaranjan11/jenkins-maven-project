@@ -22,5 +22,11 @@ pipeline {
                 }
             }
         }
-    }
+        stage('Deploy') { // New Deploy Stage
+            steps {
+                echo 'Deploying the application...'
+                echo 'Hello World' // Print "Hello World"
+            }
+        }
+    } 
 }
