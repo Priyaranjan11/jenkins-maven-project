@@ -1,0 +1,4 @@
+./target/*.jar
+./target/maven-status/
+./target/maven-status/
+./target/surefire-reports/

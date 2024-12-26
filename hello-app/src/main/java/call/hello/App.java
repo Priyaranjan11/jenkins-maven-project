@@ -16,3 +16,5 @@ public class App
     }
 
 }
+
+// java -cp target/hello-app-1.0.jar call.hello.App

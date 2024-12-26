@@ -25,7 +25,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 echo 'Deploying the application...'
-                echo 'Hello World' // Print "Hello World"
+                echo 'Hello World' 
             }
         }
     } 
