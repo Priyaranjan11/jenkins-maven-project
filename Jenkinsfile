@@ -22,7 +22,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') { // New Deploy Stage
+        stage('Deploy') { 
             steps {
                 echo 'Deploying the application...'
                 echo 'Hello World' // Print "Hello World"
